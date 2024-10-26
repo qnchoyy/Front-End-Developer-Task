@@ -1,0 +1,57 @@
+.heroContainer {
+  background-color: #062e32;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.heroSmallText {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  color: #e2ffcf;
+}
+
+.heroSmallTextImg {
+  width: 23px;
+  height: 22px;
+}
+
+.heroImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.heroBigTextHeading {
+  color: #e2ffcf;
+}
+
+.heroBigTextParagraph {
+  color: #bacfc2;
+}
+
+.btnsContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btnSuccess {
+  background-color: #07373c;
+  color: #e2ffcf;
+  border: 2px solid #e2ffcf;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.trustedBrands h2 {
+  color: #e2ffcf;
+}
+
+.companies {
+  width: 1440px;
+  height: 136px;
+}
