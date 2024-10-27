@@ -2,7 +2,12 @@ import clutchLogo from "../../assets/clutchLogo.png";
 import heroImage from "../../assets/hero-image.png";
 import logoStrip from "../../assets/logoStrip.png";
 import styles from "../Hero/Hero.module.css";
-import Button from "../UI/Button";
+import facebook from "../../assets/facebook.png";
+import google from "../../assets/google.png";
+import pinterest from "../../assets/pinterest.png";
+import twitch from "../../assets/twitch.png";
+import youTube from "../../assets/youTube.png";
+import webflow from "../../assets/webflow.png";
 
 export default function Hero() {
   return (
@@ -25,15 +30,52 @@ export default function Hero() {
           proprietary technology platform.
         </p>
         <div className={styles.btnsContainer}>
-          <button className={styles.btnSuccess}>Succes Stories</button>
-          <Button>Book a call</Button>
+          <button className={styles.btnSuccess}>Success Stories</button>
+          <button className={styles.btnBook}>Book a call</button>
         </div>
-        <img src={heroImage} className={styles.heroImage} alt="heroImage" />
+        <div className={styles.heroImageWrapper}>
+          <img src={heroImage} className={styles.heroImage} alt="heroImage" />
+        </div>
       </div>
       <div className={styles.trustedBrands}>
         <h2>Trusted by industry leaders:</h2>
+        <div className={styles.socials}>
+          <div>
+            <img
+              src={google}
+              alt="companiesLogos"
+              className={styles.companies}
+            />
+            <img
+              src={facebook}
+              alt="companiesLogos"
+              className={styles.companies}
+            />
+            <img
+              src={youTube}
+              alt="companiesLogos"
+              className={styles.companies}
+            />
+          </div>
+          <div>
+            <img
+              src={pinterest}
+              alt="companiesLogos"
+              className={styles.companies}
+            />
+            <img
+              src={twitch}
+              alt="companiesLogos"
+              className={styles.companies}
+            />
+            <img
+              src={webflow}
+              alt="companiesLogos"
+              className={styles.companies}
+            />
+          </div>
+        </div>
       </div>
-      <img src={logoStrip} alt="companiesLogos" className={styles.companies} />
     </div>
   );
 }
