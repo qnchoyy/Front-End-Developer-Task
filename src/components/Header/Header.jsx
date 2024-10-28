@@ -2,15 +2,17 @@ import { useState } from "react";
 import styles from "./Header.module.css";
 import logo from "../../assets/logo.png";
 import burgerMenu from "../../assets/burgerMenu.png";
+import search1 from "../../assets/search1.png";
+import earth1 from "../../assets/earth1.png";
+import frame3 from "../../assets/frame3.png";
+import frame4 from "../../assets/frame4.png";
+import frame5 from "../../assets/frame5.png";
+import magnet1 from "../../assets/magnet1.png";
+import vector1 from "../../assets/vector1.png";
+import frame8 from "../../assets/frame8.png";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronDown,
-  faMagnifyingGlass,
-  faGlobe,
-  faEnvelope,
-  faStar,
-  // faReact
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 export default function Header() {
   const [isServicesOpen, setIsServicesopen] = useState(false);
@@ -34,28 +36,37 @@ export default function Header() {
               {isServicesOpen && (
                 <ul className={`${styles.dropdownMenu} ${styles.open}`}>
                   <li>
-                    <FontAwesomeIcon icon={faMagnifyingGlass} />
+                    <img src={search1} alt="" />
                     SEO Optimisation
                   </li>
                   <li>
-                    <FontAwesomeIcon icon={faGlobe} />
+                    <img src={earth1} alt="" />
                     Paid Media
                   </li>
                   <li>
-                    <FontAwesomeIcon icon={faEnvelope} />
+                    <img src={frame3} alt="" />
                     Email Marketing
                   </li>
                   <li>
-                    <FontAwesomeIcon icon={faStar} />
+                    <img src={frame4} alt="" />
                     Influencer Marketing
                   </li>
                   <li>
-                    {/* <FontAwesomeIcon icon={faReact} /> */}
+                    <img src={frame5} alt="" />
                     Social Media
                   </li>
-                  <li>Lead Generation</li>
-                  <li>Web Design</li>
-                  <li>Web Development</li>
+                  <li>
+                    <img src={magnet1} alt="" />
+                    Lead Generation
+                  </li>
+                  <li>
+                    <img src={vector1} alt="" />
+                    Web Design
+                  </li>
+                  <li>
+                    <img src={frame8} alt="" />
+                    Web Development
+                  </li>
                 </ul>
               )}
             </li>
