@@ -1,0 +1,69 @@
+.faqSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  color: #2e3d3e;
+  max-width: 1440px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.faqTitle {
+  font-size: 42px;
+  color: #062e32;
+  text-align: center;
+  margin-bottom: 64px;
+  max-width: 703px;
+}
+
+.faqContent {
+  display: flex;
+  gap: 0 64px;
+}
+
+.faqQuestions {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  padding: 33px 24px;
+  border-radius: 8px;
+  color: #062e32;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s;
+  border-bottom: 1px solid #f1e6e0;
+}
+
+.questionIcon {
+  width: 16px;
+  height: 9px;
+  color: #062e32;
+}
+
+.faqImage {
+  flex: 1;
+  /* max-width: 670px; */
+  height: 570px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.faqImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 960px) {
+  .faqContent {
+    flex-direction: column;
+  }
+}
