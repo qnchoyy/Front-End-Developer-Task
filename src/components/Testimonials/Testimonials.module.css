@@ -1,0 +1,97 @@
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSide {
+  max-width: 640px;
+}
+
+.leftSide h1 {
+  color: #00a67d;
+}
+
+.leftSide h2 {
+  color: #062e32;
+  font-size: 42px;
+  margin-bottom: 16px;
+}
+
+.leftSide {
+  color: #435f61;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 459px;
+  border: 2px solid #f1e6e0;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.rightSide .images {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardsContainer {
+  margin-top: 64px;
+  max-width: 1441px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.singleCardContainer {
+  width: 459px;
+  max-height: auto;
+  padding: 24px;
+  border: 2px solid #f1e6e0;
+  border-radius: 20px;
+}
+
+.logo {
+  height: 32px;
+  object-fit: contain;
+  margin-bottom: 34px;
+  width: auto;
+}
+
+.description {
+  color: #3b5154;
+  margin-bottom: 18px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  width: 186px;
+  height: 54px;
+}
+
+.authorName {
+  font-size: 18px;
+}
+
+.authorPosition {
+  font-size: 16px;
+}
+
+.author img {
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 960px) {
+  .text {
+    flex-direction: column;
+  }
+}
