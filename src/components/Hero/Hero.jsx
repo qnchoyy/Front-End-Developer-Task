@@ -1,6 +1,5 @@
 import clutchLogo from "../../assets/clutchLogo.png";
 import heroImage from "../../assets/hero-image.png";
-import logoStrip from "../../assets/logoStrip.png";
 import styles from "../Hero/Hero.module.css";
 import facebook from "../../assets/facebook.png";
 import google from "../../assets/google.png";

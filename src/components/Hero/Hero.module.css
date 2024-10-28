@@ -113,6 +113,16 @@
   width: 48%;
 }
 
+@media screen and (min-width: 361px) and (max-width: 960px) {
+  .socials {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .socials div {
+    width: 500px;
+  }
+}
 @media screen and (max-width: 360px) {
   .socials {
     flex-direction: column;
