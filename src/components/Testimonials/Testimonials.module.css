@@ -2,6 +2,8 @@
   max-width: 1450px;
   margin: 0 auto;
   font-size: 18px;
+  padding-top: 100px;
+  border-top: 1px solid #f1e6e0;
 }
 
 .text {
