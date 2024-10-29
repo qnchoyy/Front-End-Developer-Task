@@ -1,0 +1,126 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #fcfaf9;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 48px;
+  padding-top: 100px;
+}
+
+.centerHeader {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 64px;
+  padding-top: 100px;
+}
+
+.left {
+  text-align: left;
+}
+
+.title {
+  color: #00a67d;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.subtitle {
+  font-size: 42px;
+  color: #062e32;
+}
+
+.description {
+  color: #3b5154;
+  max-width: 580px;
+  font-size: 18px;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 44px 32px;
+}
+
+.card {
+  border: 2px solid #f1e6e0;
+  padding: 24px 28px 21px 24px;
+  border-radius: 15px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  object-fit: contain;
+  color: #033f4f;
+  margin-bottom: 5px;
+}
+
+.serviceTitle {
+  font-size: 26px;
+  color: #062e32;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.serviceDescription {
+  color: #3b5154;
+  margin-bottom: 34px;
+  font-size: 18px;
+}
+
+.learnMore {
+  color: #062e32;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.viewAllButton {
+  background-color: #07373c;
+  color: #e2ffcf;
+  padding: 17px 22px;
+  border: none;
+  border-radius: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin: 80px auto 100px auto;
+}
+
+@media screen and (min-width: 361px) and (max-width: 960px) {
+  .servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 44px 32px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 44px 32px;
+  }
+
+  .subtitle {
+    font-size: 28px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .header {
+    flex-direction: column;
+    align-items: start;
+  }
+}
