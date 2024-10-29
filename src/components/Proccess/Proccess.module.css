@@ -1,0 +1,86 @@
+.container {
+  width: 100%;
+  background-color: #062e32;
+}
+
+.texts {
+  max-width: 1439px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 100px;
+}
+
+.left {
+  max-width: 634px;
+  text-align: start;
+}
+
+.left h1 {
+  font-size: 42px;
+  color: #e2ffcf;
+}
+
+.left p {
+  padding-top: 6px;
+  color: #bacfc2;
+  font-size: 18px;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  padding-top: 64px;
+}
+
+.step {
+  background-color: #064041;
+  border: 1px solid #135b62;
+  color: #e2ffcf;
+  border-radius: 8px;
+  max-width: 336px;
+  min-height: 224px;
+  position: relative;
+  height: auto;
+  padding: 24px;
+  text-align: center;
+}
+
+.step img {
+  padding-bottom: 24px;
+}
+
+.step p {
+  color: #bacfc2;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #a9f3f7;
+}
+
+.step h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.step p {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 960px) {
+  .texts {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right {
+    width: 100%;
+  }
+  .steps {
+    gap: 16px 0;
+  }
+}
