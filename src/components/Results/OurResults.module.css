@@ -1,0 +1,97 @@
+.container {
+  text-align: center;
+  padding: 2rem;
+  height: auto;
+}
+
+.results {
+  max-width: 850px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 64px;
+}
+
+.title {
+  color: #00a67d;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.subtitle {
+  font-size: 42px;
+  color: #222;
+  margin-bottom: 16px;
+}
+
+.description {
+  color: #3b5154;
+  font-size: 18px;
+}
+
+.metrics {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  height: auto;
+  gap: 32px;
+  justify-content: center;
+}
+
+.cardHighlight {
+  background-color: #033f4f;
+  color: #e0f4f1;
+  border-radius: 8px;
+  max-width: 336px;
+  min-height: 346px;
+  position: relative;
+  height: auto;
+  padding: 24px;
+  text-align: left;
+}
+
+.cardHighlight h4 {
+  color: #e2ffcf;
+  font-weight: bold;
+  font-size: 26px;
+  padding-bottom: 8px;
+}
+
+.cardHighlight p {
+  max-width: 295px;
+  font-size: 18px;
+  color: #bacfc2;
+}
+.card {
+  border: 1px solid #f1e6e0;
+  background-color: #fcfaf9;
+  border-radius: 15px;
+  color: #033f4f;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  text-align: start;
+  flex-direction: column;
+  width: 336px;
+  height: auto;
+}
+
+.card h3 {
+  font-size: 72px;
+  border-bottom: 2px #f1e6e0 solid;
+}
+
+.card p {
+  font-size: 18px;
+  max-width: 250px;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #033f4f;
+}
+
+.buttonCall {
+  position: absolute;
+  bottom: 24px;
+}
